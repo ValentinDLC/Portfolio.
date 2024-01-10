@@ -1163,6 +1163,7 @@ h1 {
     align-items: center;
     border-top: 1px dashed #333;
     border-bottom: 1px dashed #333;
+    min-widht:100%
     }
 
 @media screen and (max-width: 768px) {
