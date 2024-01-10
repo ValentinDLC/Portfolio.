@@ -1176,6 +1176,7 @@ h1 {
 
 @media screen and (max-device-width: 480px) {
     .section-parallax {
+        background-image: url(./Portfolioimage/fondportfolio.jpg);
         height: 150px;
         background-size: cover;
     }
