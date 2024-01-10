@@ -194,20 +194,3 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
   });
-  const imagemin = require('imagemin');
-const imageminPngquant = require('imagemin-pngquant');
-
-(async () => {
- const files = await imagemin(
-    ['fondportfolio*.{jpg,png}'], // Specify your source files here
-    {
-      destination: 'fondportfolio', // Specify your destination directory here
-      plugins: [
-        imageminPngquant({
-          quality: [0.6, 0.8], // Specify your desired quality range here
-        }),
-      ],
-    }
- );
- console.log('Images optimized for iPhone:', files);
-})();
