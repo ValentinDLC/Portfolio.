@@ -1153,6 +1153,7 @@ h1 {
         line-height: 40px;
     }
 }
+
 .section-parallax {
     width: 100%;
     height: 250px;
@@ -1163,6 +1164,20 @@ h1 {
     border-top: 1px dashed #333;
     border-bottom: 1px dashed #333;
     }
+
+@media screen and (max-width: 768px) {
+    .section-parallax {
+        height: 200px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section-parallax {
+        height: 150px;
+        background-size: cover;
+    }
+}
 /* Section Contact */
 
 .section-contact {
