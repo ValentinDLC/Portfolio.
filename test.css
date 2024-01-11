@@ -1167,7 +1167,7 @@ h1 {
 
 @media screen and (max-device-width: 768px) {
     .section-parallax {
-        background: url(./Portfolioimage/fondportfolio2.jpg) no-repeat right / cover fixed;
+        background: url(fondportfolio2.jpg) no-repeat right / cover fixed;
         height: 200px;
         background-size: cover;
     }
@@ -1175,7 +1175,7 @@ h1 {
 
 @media screen and (max-device-width: 480px) {
     .section-parallax {
-        background-image: url(./Portfolioimage/fondportfolio.jpg);
+        background: url(fondportfolio2.jpg) no-repeat right / cover fixed;
         height: 150px;
         background-size: cover;
     }
