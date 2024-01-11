@@ -1163,12 +1163,11 @@ h1 {
     align-items: center;
     border-top: 1px dashed #333;
     border-bottom: 1px dashed #333;
-    -webkit-background-size: cover;
-    min-widht:1024px;
     }
 
 @media screen and (max-device-width: 768px) {
     .section-parallax {
+        background: url(./Portfolioimage/fondportfolio2.jpg) no-repeat right / cover fixed;
         height: 200px;
         background-size: cover;
     }
